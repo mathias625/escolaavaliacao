@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="topo">
+        <span id="nomeProfessor"></span>
+
+        <button onclick="logout()">
+            Sair
+        </button>
+    </header>
+
+    <main class="container">
+
+        <h2 id="nomeTurma"></h2>
+
+        <button class="btn-cadastrar" onclick="cadastrarAtividade()">
+            Cadastrar Atividade
+        </button>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Número</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+
+            <tbody id="listaAtividades">
+
+            </tbody>
+        </table>
+
+    </main>
+
+    <script src="atividades.js"></script>
+
+</body>
+</html>

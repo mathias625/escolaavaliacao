@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="topo">
+        <span id="nomeProfessor"></span>
+
+        <button onclick="logout()">
+            Sair
+        </button>
+    </header>
+
+    <main class="container">
+
+        <button class="btn-cadastrar" onclick="cadastrarTurma()">
+            Cadastrar Turma
+        </button>
+
+        <h2>Turmas</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Número</th>
+                    <th>Nome</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+
+            <tbody id="listaTurmas">
+
+            </tbody>
+        </table>
+
+    </main>
+
+    <script src="professor.js"></script>
+
+</body>
+</html>
