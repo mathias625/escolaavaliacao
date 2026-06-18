@@ -144,6 +144,5 @@ app.post("/atividades", async (req, res) => {
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log(`Servidor rodando na porta ${PORT}`);
-  console.log("DATABASE_URL:", process.env.DATABASE_URL);
+    console.log(`Servidor rodando na porta ${PORT}`);
 });
