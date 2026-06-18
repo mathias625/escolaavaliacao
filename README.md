@@ -121,38 +121,6 @@ Senha:
 
 ---
 
-## Estrutura do Projeto
-
-```txt
-escolaavaliacao
-│
-├── api
-│   ├── prisma
-│   ├── server.js
-│   ├── package.json
-│   └── .env
-│
-├── web
-│   ├── login.html
-│   ├── professor.html
-│   ├── atividades.html
-│   ├── style.css
-│   ├── script.js
-│   ├── professor.js
-│   └── atividades.js
-│
-├── docs
-│   ├── prints
-│   │   ├── login.png
-│   │   ├── professor.png
-│   │   └── atividades.png
-│   └── dados.sql
-│
-└── README.md
-```
-
----
-
 ## Linguagens Utilizadas
 
 - JavaScript
