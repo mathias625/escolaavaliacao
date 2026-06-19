@@ -148,4 +148,10 @@ Senha:
 
 ![Tela de Atividades](docs/prints/turmas.png)
 
+---
 
+## Diagrama Entidade Relacionamento (DER)
+
+![DER](docs/prints/der.png)
+
+---
